@@ -105,6 +105,8 @@ public final class Util {
    */
   public static final int TYPE_OTHER = 3;
 
+  public static final int TYPE_IPTV = 4;
+
   private static final Pattern XS_DATE_TIME_PATTERN = Pattern.compile(
       "(\\d\\d\\d\\d)\\-(\\d\\d)\\-(\\d\\d)[Tt]"
       + "(\\d\\d):(\\d\\d):(\\d\\d)(\\.(\\d+))?"
